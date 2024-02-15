@@ -1,0 +1,4 @@
+#.dockerignore 
+/node_module
+/retired_backup
+.env
