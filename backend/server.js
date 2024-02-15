@@ -20,7 +20,9 @@ mongoose.connect(connection, {
 })
 */
 
-app.use(cors())
+app.use(cors({
+  origin: ['http://localhost:3001', 'https://www.digitalocean.com/'] 
+}))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json());
 
