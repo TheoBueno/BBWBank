@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 .env
+Dockerfile.dev
+.Dockerfile.dev
+.dockerignore
 
 # testing
 /coverage
