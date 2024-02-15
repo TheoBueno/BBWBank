@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const cors       = require ('cors')
 require("dotenv").config();
 const app  = express()
-const PORT = process.env.REACT_APP_PORT // || 5000
+const PORT = process.env.REACT_APP_SERVERPORT // || 5000
 
 const dal  = require ('./dal.js') // Connecting to Mongoose at the Dal
 const User = require("./schemas/User.js")
